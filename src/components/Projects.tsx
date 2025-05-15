@@ -73,16 +73,6 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    title: "SIZER",
-    description: "Application de gestion de mesures pour les personnes. SIZER est une application qui permet de gérer les mesures corporelles.",
-    image: "/assets/images/image7.png",
-    tags: ["React", "Typescript", "Tailwind.CSS", "Vite"],
-    githubUrl: "https://github.com/Enock-kdjouda/licence-aide-creatif",
-    liveUrl: "https://gestionsmesures.netlify.app/",
-    category: "web"
-  },
-  {
-    id: 8,
     title: "Quizofvue",
     description: "Un site de quiz pour les développeurs utilisant Vue JS.",
     image: "/assets/images/image8.png",
@@ -96,11 +86,19 @@ const projects: Project[] = [
     title: "TutoAgence",
     description: "Un site présentant une agence immobilière de vente de Maison.",
     image: "/assets/images/image9.png",
-    tags: ["laravel", "Tailwind.CSS"],
+    tags: ["laravel", "Tailwind.CSS" , "Bootstrap"],
     githubUrl: "https://github.com/Enock-kdjouda/TutoAgence",
     category: "backend"
   },
-  
+  {
+    id: 9,
+    title: "Task Manager V2",
+    description: "Application de gestion de tâches pour le pilotage des projets.",
+    image: "/assets/images/WhatsApp Image 2025-05-16 à 00.47.44_2ff8559f.jpg",
+    tags: ["laravel", "Tailwind.CSS" , "Bootstrap", "chart.js"],
+    githubUrl: "https://github.com/Enock-kdjouda/taskmanager.git",
+    category: "backend"
+  },
   
 ];
 
